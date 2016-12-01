@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.appportfolio.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moviesAppButton"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/moviesAppButtonText"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:onClick="moviesAppButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stockHawkAppButton"
+        android:layout_below="@+id/moviesAppButton"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/stockHawkAppButtonText"
+        android:onClick="stockHawkAppButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buildBiggerAppButton"
+        android:layout_below="@+id/stockHawkAppButton"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/buildBiggerAppText"
+        android:onClick="buildBiggerAppButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/materialAppButton"
+        android:layout_below="@+id/buildBiggerAppButton"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/materialAppText"
+        android:onClick="materialAppButton"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ubiquitousAppButton"
+        android:layout_below="@+id/materialAppButton"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/ubiquitousAppText"
+        android:onClick="ubiquitousAppButton"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/capstoneProjectAppButton"
+        android:layout_below="@+id/ubiquitousAppButton"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/capstoneProjectAppText"
+        android:background="@color/colorAccent"
+        android:textColor="?attr/actionMenuTextColor"
+        android:layout_alignParentEnd="true"
+        android:onClick="capstoneProjectAppButton"/>
+
+    <TextView
+        android:text="@string/nanoDegreeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
