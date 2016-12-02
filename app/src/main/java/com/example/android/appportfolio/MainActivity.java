@@ -13,14 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public static String msgMoviesApp = "This button will launch my Movies app";
-    public static String msgStockHawk= "This button will launch my Stock Hawk app";
-    public static String msgBuildBiggerApp = "This button will make my App Bigger";
-    public static String msgMaterialApp = "This button will transform my app using Material design";
-    public static String msgUbiquitousApp = "This buttion will make my app ubiquitous";
-    public static String msgCapstoneProjectApp = "This is my Capstone project";
-
-
+    private static String msgMoviesApp = "This button will launch my Movies app";
+    private static String msgStockHawk= "This button will launch my Stock Hawk app";
+    private static String msgBuildBiggerApp = "This button will make my App Bigger";
+    private static String msgMaterialApp = "This button will transform my app using Material design";
+    private static String msgUbiquitousApp = "This buttion will make my app ubiquitous";
+    private static String msgCapstoneProjectApp = "This is my Capstone project";
 
     public void moviesAppButton(View view){
         Toast.makeText(this,msgMoviesApp,Toast.LENGTH_SHORT).show();
